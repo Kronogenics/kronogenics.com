@@ -7,6 +7,15 @@
 		<link href="https://fonts.googleapis.com/css?family=Exo+2:600,700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="icon" type="image/png" href="/favicon.png">
+
+
+		<script>
+			function bustin() {
+				var audio = new Audio('bustin.mp3');
+				audio.volume = 0.1;
+				audio.play();
+			}
+		</script>
 	</head>
 	<body>
 		<center>
@@ -23,7 +32,7 @@
 					<li><a href="/github">GitHub</a></li>
 				</ul>
 				<br>
-				<img src="goon.png" style="width: 25px; pointer-events: none; border-radius: 50%; border: 1px solid rgba(0,255,255,1);">
+				<img src="goon.png" style="width: 25px; border-radius: 50%; border: 1px solid rgba(0,255,255,1);" onclick="bustin()">
 			</header>
 			<div style="position: fixed; bottom: 0; width: 100%; padding-bottom: 5px;">
 				<div style="text-align: left; float: left;">
@@ -32,7 +41,7 @@
 				</div>
 
 				<div style="text-align: right; float: right;">
-					<a href="https://github.com/willyosu/willyosu.github.io">Website Credit: Willy</a>
+					<a href="https://github.com/willyosu/willyosu.github.io">Design Inspiration: Willy</a>
 					&nbsp
 				</div>
 			</div>

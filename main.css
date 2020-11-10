@@ -5,7 +5,7 @@ body {
 	height: 100%;
 	margin: 0pt auto;
 	text-shadow: 2px 2px 0px rgba(255, 0, 128, 0.5);
-	color: rgba(0, 255, 255, 0.9);
+	color: rgba(0, 255, 255, 1);
 	background-image: linear-gradient(rgba(0,255,255,1), rgba(255,0,128,1));
 	position: relative;
 	background-size: cover;
