@@ -16,7 +16,16 @@
 			function bustin() {
 				audio.play();
 
+  				setTimeout(function() { pcmbText(); }, 1000);
+			}
+
+			function pcmbText() {
   				var el = document.getElementById("bustin");
+
+  				if (el.innerHTML) {
+  					return;
+  				}
+
   				el.style.height = "15px";
   				el.style.opacity = 1.0;
   				el.style.marginBottom = "10px"
