@@ -49,3 +49,6 @@ header {
 	z-index: 10;
 	top: 50%;
 }
+.smooth-transition {
+	transition: 0.66s, height 0.66s ease-out;
+}
