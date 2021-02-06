@@ -17,15 +17,24 @@ p {
 	padding: 0pt;
 	font-weight: 600;
 }
+
+.pretty {
+	color: rgba(0, 255, 255, 0.9);
+	font-weight: 700;
+	text-decoration: none;
+}
+
 a {
 	color: rgba(0, 255, 255, 0.9);
 	font-weight: 700;
 	text-decoration: none;
 }
+
 a:hover {
 	color: rgba(0, 255, 255, 0.9);
 	text-decoration: underline;
 }
+
 header ul {
 	display: inline;
 	width: 100%;
